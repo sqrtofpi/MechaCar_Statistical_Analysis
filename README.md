@@ -61,3 +61,16 @@ The results of the T-Test on Lot 3 indicated that we must reject the null hypoth
 
 ![](https://github.com/sqrtofpi/MechaCar_Statistical_Analysis/blob/23ae6b661680b664a47fb733a4511174586f5638/Resources/Screen%20Shot%202021-08-25%20at%2011.14.45%20AM.png)
 
+## Study Design: MechaCar vs Competition
+
+- *Design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.*
+
+In addition to the analyses already performed, we would recommend a study of **fuel efficiency vs. the companies competitors**. Although there is a transition going on in the automotive sector to EV (electric vehicles), conservative estimates are that ICE (Internal Combustion Engines) will be continue to dominate the automotive sector for the foreseeable future. If MechaCar is able to improve on this important consumer driven factor (no pun intended), they may be able to gain some important market share. The variables of interest in this proposed statistical study are:
+
+- City and Highway fuel efficiency (dependent variable)
+- Vehicle weight (independent variable)
+- Horsepower (independent variable)
+- Range (independent variable)
+- Drivetrain (independent variable)
+
+Our null hypothesis is that by reducing vehicle weight and limiting the range (gas storage in the fuel tank), MechaCar can outperform vehicles currently in production. We will use a T-Test to determine the results of our hypothesis.
