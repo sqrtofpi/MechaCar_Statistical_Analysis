@@ -14,7 +14,9 @@ summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_cleara
 # Summary that addresses all three questions
 # Included in README.md
 
-library(dplyr) 
+library(dplyr)
+
+## DELIVERABLE 2 ##
 
 # The Suspension_Coil.csv file is imported and read into a dataframe
 sus_coil <- read.csv(file='Suspension_Coil.csv', check.names = F, stringsAsFactors = F)
@@ -29,6 +31,8 @@ lot_summary <- sus_coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean = mea
 # Included in README.md
 
 library(dplyr)
+
+## DELIVERABLE 3 ##
 
 # An RScript is written for t-test that compares all manufacturing lots against mean PSI of the population
 t.test(sus_coil$PSI, mu = 1500)
