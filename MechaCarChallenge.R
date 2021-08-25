@@ -13,3 +13,15 @@ summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_cleara
 
 # Summary that addresses all three questions
 # Included in README.md
+
+# The Suspension_Coil.csv file is imported and read into a dataframe
+
+
+# An RScript is written to create a total summary dataframe that has the mean, median, variance, and standard deviation of the PSI for all manufacturing lots
+
+
+# An RScript is written to create a lot summary dataframe that has the mean, median, variance, and standard deviation for each manufacturing lot
+
+
+# There is a summary that addresses the design specification requirement for all the manufacturing lots and each lot individually
+# Included in README.md
