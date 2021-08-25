@@ -41,3 +41,23 @@ The results on a lot by lot basis however had 1 lot significantly out of specifi
 
 ![](https://github.com/sqrtofpi/MechaCar_Statistical_Analysis/blob/7544ba999ef891cb4daa5274e108eecdb8725687/Resources/Screen%20Shot%202021-08-25%20at%2010.39.54%20AM.png)
 
+## T-Tests on Suspension Coils
+
+- *Perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.*
+
+The results of the T-Test on all Suspension Coils indicated that we can accept the null hypothesis that the sample mean is equivalent to the population mean, see below for results:
+
+![](https://github.com/sqrtofpi/MechaCar_Statistical_Analysis/blob/23ae6b661680b664a47fb733a4511174586f5638/Resources/Screen%20Shot%202021-08-25%20at%2011.14.07%20AM.png)
+
+The results of the T-Test on Lot 1 indicated that we can accept the null hypothesis that the sample mean is equivalent to the population mean, see below for results:
+
+![](https://github.com/sqrtofpi/MechaCar_Statistical_Analysis/blob/23ae6b661680b664a47fb733a4511174586f5638/Resources/Screen%20Shot%202021-08-25%20at%2011.14.18%20AM.png)
+
+The results of the T-Test on Lot 2 also indicated that we can accept the null hypothesis that the sample mean is equivalent to the population mean, see below for results:
+
+![](https://github.com/sqrtofpi/MechaCar_Statistical_Analysis/blob/23ae6b661680b664a47fb733a4511174586f5638/Resources/Screen%20Shot%202021-08-25%20at%2011.14.36%20AM.png)
+
+The results of the T-Test on Lot 3 indicated that we must reject the null hypothesis that the sample mean is equivalent to the population mean, see below for results:
+
+![](https://github.com/sqrtofpi/MechaCar_Statistical_Analysis/blob/23ae6b661680b664a47fb733a4511174586f5638/Resources/Screen%20Shot%202021-08-25%20at%2011.14.45%20AM.png)
+
