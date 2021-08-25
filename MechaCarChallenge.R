@@ -14,8 +14,6 @@ summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_cleara
 # Summary that addresses all three questions
 # Included in README.md
 
-library(dplyr)
-
 ## DELIVERABLE 2 ##
 
 # The Suspension_Coil.csv file is imported and read into a dataframe
@@ -29,8 +27,6 @@ lot_summary <- sus_coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean = mea
 
 # There is a summary that addresses the design specification requirement for all the manufacturing lots and each lot individually
 # Included in README.md
-
-library(dplyr)
 
 ## DELIVERABLE 3 ##
 
